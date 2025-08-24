@@ -3,6 +3,7 @@
 
 # Configuration files with sensitive information
 config.json
+job_description.txt
 
 # Generated files
 *.pdf
@@ -11,6 +12,7 @@ updated_json_resume.json
 # Python cache files
 __pycache__/
 *.pyc
+*.xml
 
 # IDE and editor files
 .vscode/
