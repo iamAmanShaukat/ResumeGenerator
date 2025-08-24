@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Configuration files with sensitive information
+config.json
+
+# Generated files
+*.pdf
+updated_json_resume.json
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.log
+.DS_Store
