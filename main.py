@@ -36,7 +36,7 @@ def main():
     generator = ProfessionalResumeGenerator()
     success = generator.create_resume(json_to_use, output_filename)
 
-    print(f"Resume generation {success}")
+    print(f"Resume generated: {success}")
 
 
 if __name__ == "__main__":
