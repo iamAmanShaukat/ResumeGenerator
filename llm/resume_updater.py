@@ -1,6 +1,7 @@
 import json
-import google.generativeai as genai
 from typing import Dict
+import google.generativeai as genai
+
 
 class ResumeUpdater:
     """Class to update resume JSON using Gemini LLM."""
@@ -17,23 +18,23 @@ class ResumeUpdater:
     def update_resume(self, job_desc: str, resume_json: str) -> Dict:
         """Update resume JSON based on job description using LLM."""
         prompt = f"""
-Given the following job description:
-
-{job_desc}
-
-And the following resume in JSON format:
-
-{resume_json}
-
-Please update the resume to better tailor it to the job description. Possible updates include:
-- Revising the professional summary to emphasize relevant skills and experiences.
-- Adjusting experience descriptions to include keywords from the job description.
-- Reordering or adding skills that match the job requirements.
-- Modifying project descriptions to highlight applicable aspects.
-- Ensuring the overall structure remains similar, but optimized for the job.
-
-Output ONLY the updated JSON object, with no additional text, explanations, or markdown. Ensure the output is valid JSON.
-"""
+                Given the following job description:
+                
+                {job_desc}
+                
+                And the following resume in JSON format:
+                
+                {resume_json}
+                
+                Please update the resume to better tailor it to the job description. Possible updates include:
+                - Revising the professional summary to emphasize relevant skills and experiences.
+                - Adjusting experience descriptions to include keywords from the job description.
+                - Reordering or adding skills that match the job requirements.
+                - Modifying project descriptions to highlight applicable aspects.
+                - Ensuring the overall structure remains similar, but optimized for the job.
+                
+                Output ONLY the updated JSON object, with no additional text, explanations, or markdown. Ensure the output is valid JSON.
+                """
 
         try:
             print("Sending request to Gemini for resume update...")

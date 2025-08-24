@@ -34,7 +34,7 @@ def main():
     json_to_use = job_handler.process_job_description(json_resume)
 
     generator = ProfessionalResumeGenerator()
-    success = generator.create_resume(json_resume, output_filename)
+    success = generator.create_resume(json_to_use, output_filename)
 
     print(f"Resume generation {success}")
 

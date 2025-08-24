@@ -5,7 +5,7 @@
   "phone": "+447407866266",
   "linkedin": "amanshaukat",
   "github": "iamAmanShaukat",
-  "summary": "Experienced Software Engineer with 2+ years of expertise in building scalable microservices and full-stack applications. Proven track record in migrating legacy systems, optimizing performance, and implementing secure authentication systems. Strong background in Java, Spring Boot, and cloud technologies.",
+  "summary": "Experienced Software Engineer with 3+ years of expertise in building scalable microservices and full-stack applications. Proven track record in migrating legacy systems, optimizing performance, and implementing secure authentication systems. Strong background in Java, Spring Boot, and cloud technologies.",
   "education": [
     {
       "institution": "University of Greenwich",
@@ -77,8 +77,7 @@
     "programming_languages": ["Java", "Python", "C++", "JavaScript"],
     "frameworks_libraries": ["Spring", "Spring Boot", "Django", "React"],
     "databases_caching": ["SQL", "MongoDB", "Redis", "PostgreSQL"],
-    "tools_platforms": ["Git", "GitHub", "Kafka", "RabbitMQ", "Kubernetes", "Docker", "Maven", "JUnit"],
-    "cloud_technologies": ["AWS", "Google Cloud Platform", "Microservices"]
+    "tools_platforms": ["Git", "GitHub", "Kafka", "RabbitMQ", "Kubernetes", "Docker", "Maven", "JUnit"]
   },
   "projects": [
     {

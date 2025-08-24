@@ -1,5 +1,4 @@
 from typing import List, Dict
-
 from reportlab.platypus import Paragraph
 from .base_builder import BaseBuilder
 
